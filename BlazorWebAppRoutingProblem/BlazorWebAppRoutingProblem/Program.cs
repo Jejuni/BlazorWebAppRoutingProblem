@@ -24,7 +24,7 @@ else
 app.UseHttpsRedirection();
 
 app.UseStaticFiles();
-app.UseRouting();
+app.UseRouting(); // only difference in code from Blazor WebApp Wasm Global Template
 app.UseAntiforgery();
 
 app.MapRazorComponents<App>()
